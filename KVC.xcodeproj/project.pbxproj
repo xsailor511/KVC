@@ -15,6 +15,10 @@
 		792B69A31CBB51BE0020D093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792B69A11CBB51BE0020D093 /* LaunchScreen.storyboard */; };
 		792B69AE1CBB51BF0020D093 /* KVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B69AD1CBB51BF0020D093 /* KVCTests.m */; };
 		792B69B91CBB51BF0020D093 /* KVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B69B81CBB51BF0020D093 /* KVCUITests.m */; };
+		792B69C81CBB52BC0020D093 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B69C71CBB52BC0020D093 /* Person.m */; };
+		792B69CB1CBB56A60020D093 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B69CA1CBB56A60020D093 /* Book.m */; };
+		792B6A5F1CC4A0C00020D093 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B6A5E1CC4A0C00020D093 /* Car.m */; };
+		792B6A651CC4F5A90020D093 /* IRESPaopaoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B6A641CC4F5A90020D093 /* IRESPaopaoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		792B69B41CBB51BF0020D093 /* KVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		792B69B81CBB51BF0020D093 /* KVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVCUITests.m; sourceTree = "<group>"; };
 		792B69BA1CBB51BF0020D093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		792B69C61CBB52BB0020D093 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		792B69C71CBB52BC0020D093 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		792B69C91CBB56A60020D093 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		792B69CA1CBB56A60020D093 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		792B6A5D1CC4A0BF0020D093 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		792B6A5E1CC4A0C00020D093 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		792B6A631CC4F5A90020D093 /* IRESPaopaoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRESPaopaoView.h; sourceTree = "<group>"; };
+		792B6A641CC4F5A90020D093 /* IRESPaopaoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRESPaopaoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,8 @@
 		792B69921CBB51BE0020D093 /* KVC */ = {
 			isa = PBXGroup;
 			children = (
+				792B6A631CC4F5A90020D093 /* IRESPaopaoView.h */,
+				792B6A641CC4F5A90020D093 /* IRESPaopaoView.m */,
 				792B69961CBB51BE0020D093 /* AppDelegate.h */,
 				792B69971CBB51BE0020D093 /* AppDelegate.m */,
 				792B69991CBB51BE0020D093 /* ViewController.h */,
@@ -110,6 +124,12 @@
 				792B69A11CBB51BE0020D093 /* LaunchScreen.storyboard */,
 				792B69A41CBB51BE0020D093 /* Info.plist */,
 				792B69931CBB51BE0020D093 /* Supporting Files */,
+				792B69C61CBB52BB0020D093 /* Person.h */,
+				792B69C71CBB52BC0020D093 /* Person.m */,
+				792B69C91CBB56A60020D093 /* Book.h */,
+				792B69CA1CBB56A60020D093 /* Book.m */,
+				792B6A5D1CC4A0BF0020D093 /* Car.h */,
+				792B6A5E1CC4A0C00020D093 /* Car.m */,
 			);
 			path = KVC;
 			sourceTree = "<group>";
@@ -270,9 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				792B6A5F1CC4A0C00020D093 /* Car.m in Sources */,
+				792B69CB1CBB56A60020D093 /* Book.m in Sources */,
 				792B699B1CBB51BE0020D093 /* ViewController.m in Sources */,
 				792B69981CBB51BE0020D093 /* AppDelegate.m in Sources */,
+				792B69C81CBB52BC0020D093 /* Person.m in Sources */,
 				792B69951CBB51BE0020D093 /* main.m in Sources */,
+				792B6A651CC4F5A90020D093 /* IRESPaopaoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +520,7 @@
 				792B69BF1CBB51BF0020D093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		792B69C01CBB51BF0020D093 /* Build configuration list for PBXNativeTarget "KVCTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +529,7 @@
 				792B69C21CBB51BF0020D093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		792B69C31CBB51BF0020D093 /* Build configuration list for PBXNativeTarget "KVCUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +538,7 @@
 				792B69C51CBB51BF0020D093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
